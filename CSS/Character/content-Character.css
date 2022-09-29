@@ -1,0 +1,196 @@
+.first-banner-character{
+    position: relative;
+}
+.img-banner-character{
+    height: 550px;
+    width: 100%;
+}
+.text-in-banner-character{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.text-in-banner-character > h4{
+    padding-left: 10px;
+    font-size: 28px;
+    font-variant: small-caps;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border-left: 5px solid #f3c776;
+    color: rgb(255, 255, 255);
+}
+.text-in-banner-character > h2{
+    font-size: 45px;
+    color: white;
+}
+.text-in-banner-character > p{
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+/* Overview */
+.title-content-overview{
+    font-size: 35px;
+    padding-left: 5px;
+    letter-spacing: 5px;
+    text-align: center;
+    border-bottom: 5px solid #f3c776;
+    width: 20%;
+    margin-left: 40%;
+}
+.overview > ul > li{
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+    list-style: none;
+}
+/* Teammate */
+.teammate-box{
+    width: 90%;
+    margin-left: 6.5%;
+}
+.teammate{
+    margin-left: 10px;
+    width: 183px;
+    height: 355px;
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+    border-bottom-right-radius: 30px;
+}
+.img-sub-teammate{
+    width: 183px;
+    height: 205px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    transition: all ease-in-out 0.5s;
+}
+.dercor-teammate{
+    width: 183px;
+    height: 7px;
+    background: red;
+    z-index: 1;
+    position: absolute;
+    top: 205px;
+    left: 0px;
+    transition: all ease-in-out 0.5s;
+}
+.subname-teamate > h4{
+    width: 183px;
+    height: 40px;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 205px;
+    left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subname-teamate > h5{
+    width: 183px;
+    height: 40px;
+    color: rgb(214, 212, 212);
+    z-index: 2;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.teammate-members > li > a:hover div > .dercor-teammate{
+    height: 152px;
+}
+.teammate-members > li > a:hover div > .img-sub-teammate{
+    transform: scale(1.1);
+}
+/* Nhiều members */
+.teammate-members > li{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+/* Box-iframe */
+iframe{
+    position: relative;
+
+}
+.box-menu-iframe{
+    width: 80%;
+    height: 70px;
+    border: 1px solid white;
+    background-color: white;
+    color: white;
+    margin-left: 10%;
+    z-index: 2;
+}
+ul.nav-iframe > li{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 200px;
+    
+}
+ul.nav-iframe > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+/* Movies Related */
+.notify-movies-related{
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 5px solid #f3c776;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 0px;
+}
+.sub-notify-movies-related{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+.movies-related-item{
+    height: 350px;
+    width: 173px;
+    position: relative;
+    overflow: hidden;
+}
+.movies-related-item > img{
+    width: 175px;
+    height: 250px;
+    position: absolute;
+    transition:  all ease-in-out 0.2s;
+}
+.movies-related-item > h4{
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    font-size: 17px;
+    font-variant: small-caps;
+}
+.movies-related-item > h5{
+    color: rgb(85, 81, 81);
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+ul.movies-related-list > li > a:hover img{
+    margin-top: -5px;
+}
+ul.movies-related-list > li > a:hover h4{
+    color: red;
+}
+ul.movies-related-list > li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.movies-related-box{
+    width: 75%;
+    margin-left: 12%;
+}

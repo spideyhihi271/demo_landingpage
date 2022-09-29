@@ -1,0 +1,224 @@
+.poster-inheading{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.poster-inheading>a>img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.trailer{
+    width: 100%;
+    height: 800px;
+}
+.trailer > iframe{
+    width: 80%;
+    height: 90%;
+    margin-left: 10%;
+    margin-bottom: 0px;
+}
+.list-news-lasted{
+    width: 100%;
+    height: 492px;
+    background-color: #151515;
+    padding-top: 30px;
+    position: relative;
+}
+.list-news-lasted > h3{
+    color: white;
+}
+.list-news-lasted > ul > li{
+    width: 293px;
+    height: 238px;
+    margin-left: 20px;
+}
+.list-news-lasted > ul > li > a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.list-news-lasted > ul > li > a:hover p{
+    color: red;
+}
+.list-news-lasted > ul{
+    display: flex;
+    width: 90%;
+    margin-left: 4%;
+}
+.list-news-lasted > ul > li > a > img{
+    display: block;
+    width: 100%;
+    height: 168px;
+}
+.list-news-lasted > ul > li > a > h5{
+    font-size: 18px;
+    color: gray;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.list-news-lasted > ul > li > a > p{
+    color: white;
+    font-size: 17px;
+    margin-top: 3px;
+}
+.list-news-lasted > button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #151515;
+    border: 1px solid white;
+    position: absolute;
+    left: 44%;
+    bottom: 15%;
+    font-size: 17px;
+}
+.list-news-lasted > button:hover{
+    border: 1px solid rgb(156, 153, 153);
+}
+.info-main{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.info-main>div:first-child>img{
+    display: block;
+    height: 400px;
+    width: 100%;
+}
+.info-main>div:last-child{
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    display: flex;
+}
+.info-main>div:last-child>div>p{
+    margin-left: 20%;
+    font-size: 18px;
+    width: 500px;
+}
+.info-main>div:last-child>div>ul{
+    margin-left: 14%;
+}
+.info-main>div:last-child>div>ul>li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.infor-main-item>div:last-child{
+    display: block;
+    width: 30%;
+    height: 100%;
+    margin-left: 50px;
+}
+.infor-main-item>div:last-child>img{
+   display: block;
+   width: 100%;
+   height: 90%;
+   margin-top: 50px;
+   margin-left: 200px;
+}
+.gallery{
+    width: 100%;
+    height: 255px;
+}
+.gallery > ul {
+    display: flex;
+    margin-left: 40px;
+}
+.gallery > ul > li{
+    list-style: none;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+}
+.gallery > ul > li >img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out 0.02s;
+}
+.gallery > ul > li >img:hover{
+   transform: scale(1.2);
+   box-shadow: 0px 0px 10px;
+}
+.title-in-movies{
+    margin-top: 70px;
+    margin-left: 3%;
+    padding-left: 10px;
+    height: 30px ;
+    border-left: 4px solid #C6A972;
+    font-size: 25px;
+}
+.poster-img{
+    width: 100%;
+    height: 541px;
+}
+.poster-img > ul{
+    display: flex;
+    margin-left: -13px;
+}
+.poster-img > ul > li{
+    width: 277px;
+    height:420px;
+    list-style: none;
+    margin-left: 10px;
+}
+.poster-img > ul > li > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.poster-img > ul > li > img:hover{
+    transform: scale(1.2);
+    border: 3px solid white;
+    box-shadow: 0px 0px 10px;
+}
+.related-movies{
+    margin-top: -20px;
+    margin-left: 10%;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+.related-movies > div:first-child{
+    width: 333px;
+    height: 500px;
+}
+.related-movies > div:first-child>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.related-movies > div:last-child{
+    display: block;
+    padding-left: 30px;
+    width: 863px;
+    height: 100%;
+}
+.related-movies > div:last-child > h3{
+    font-size: 29px;
+}
+.related-movies > div:last-child > h5{
+    font-size: 18px;
+    color: gray;
+}
+.related-movies > div:last-child > p{
+    font-size: 17px;
+    width: 500px;
+}
+.related-movies > div:last-child > button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-weight: bolder;
+}
+.related-movies > div:last-child > button:hover{
+    border: 2px solid #C6A972;
+}
